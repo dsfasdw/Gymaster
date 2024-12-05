@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/admin.css">
+    <link rel="stylesheet" href="/member.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+
+    <header class="header">
+        <picture>
+                <img class="img" src="/images/gymaster.jpg"  >
+        </picture>
+            <nav class="navbar">
+                <a href="/member">Member</a>
+                <a href="#">Program</a>
+                <a href="#">Subscription</a>
+                <a href="/coach">Coach</a>
+                <a href="#">Payment</a>
+                <a href="#">Settings</a>
+            </nav>
+    </header>
+
+  <div class="search-container">
+    <div class="actions">
+        <button type="button" class="add-member-btn">ADD MEMBER</button>
+        <form action="/search" method="GET" class="search-input">
+            <input type="text" placeholder="Search.." name="search" required>
+            <button type="submit" class="search-btn">
+                <i class="fa fa-search"></i>
+            </button>
+        </form>
+    </div>
+</div>
+
+
+
+<div class="table-container">
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Lastname</th>
+                <th>Firstname</th>
+                <th>Full Name</th>
+                <th>Course</th>
+                <th>Level</th>
+                <th>Image</th>
+                <th>Control</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>002</td>
+                <td>Doe</td>
+                <td>Jane</td>
+                <td>Jane Doe</td>
+                <td>Engineering</td>
+                <td>Junior</td>
+                <td><img src="path/to/image.jpg" alt="Profile"></td>
+                <td class="control-buttons">
+                    <a href="#">Edit</a>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+    </body>
+</html>
