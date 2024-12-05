@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/admin2.css">
+</head>
+<body>
+    <header class="header">
+        <picture>
+            <img class="img" src="/images/gymaster.jpg">
+        </picture>
+        <nav class="navbar">
+            <a href="/member">Member</a>
+            <a href="#">Program</a>
+            <a href="#">Subscription</a>
+            <a href="/coach">Coach</a>
+            <a href="#">Payment</a>
+            <a href="#">Settings</a>
+        </nav>
+    </header>
+
+    <!-- ADD MEMBER Form -->
+    <div class="container">
+        <div class="title">
+            <h1>ADD MEMBER</h1>
+        </div>
+        <form action="/register" method="POST">
+            <div class="user-details">
+                <div class="input-box">
+                    <input type="text" id="fullname" name="fullname" placeholder="Firstname" required>
+                </div>
+                <div class="input-box">
+                    <input type="text" id="username" name="username" placeholder="Lastname" required>
+                </div>
+                <div class="input-box">
+                    <input type="email" id="email" name="email" placeholder="Email" required>
+                </div>
+                <div class="input-box">
+                    <input type="text" id="number" name="phone" placeholder="Phone Number" required>
+                </div>
+                <div class="input-box">
+                    <input type="password" id="password" name="password" placeholder="Password" required>
+                </div>
+                <div class="input-box">
+                    <input type="password" id="confirm-password" name="confirm_password" placeholder="Confirm Password" required>
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <!-- MEMBER SUBSCRIPTION Form -->
+  <div class="container1">
+    <div class="title1">
+        <h1>MEMBER SUBSCRIPTION</h1>
+    </div>
+    <form action="/register" method="POST">
+        <div class="user-details1">
+            <div class="input-box1">
+                <input type="text" id="fullname" name="fullname" placeholder="Firstname" required>
+                <!-- Add buttons next to the input field -->
+                <button type="submit">Save</button>
+                <button type="button">Cancel</button>
+            </div>
+        </div>
+    </form>
+</div>
+
+
+
+
+</body>
+</html>
