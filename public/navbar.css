@@ -1,0 +1,50 @@
+header{
+    position: fixed;
+    top:0;
+    width: 100%;
+    padding: 20px 100px;
+    backdrop-filter: blur(30px);
+    display: flex;
+    z-index: 1000;
+    justify-content: space-around;
+    font-family: 'Raleway';
+}
+
+.img {
+    position: fixed;
+    top: 10px;
+    left: 70px;
+    width: 70px;
+    height: 40px;
+}
+
+.navbar a{
+    position: relative;
+    right: -115px;
+    font-size: 17px;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+    margin-left: 35px;
+}
+
+.navbar a::before {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: #042031;
+    transition: .3s;
+}
+
+.navbar a:hover::before{
+    width: 100%;
+}
+
+.navbar a:hover{
+    color: #042031;
+    font-size: 19px;
+    transform: 0.2s;
+}
