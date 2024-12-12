@@ -1,0 +1,133 @@
+*{
+    margin: 0;  
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway';
+}
+
+body{
+    background-image: url('/images/gymaster-bg.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: rgba(0, 0, 0, 0.2); 
+}
+
+.form-container {
+    position: relative;
+    top: 30px;
+    left: 50px;
+    background-color: #fff;
+    border-radius: 30px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
+    width: 500px;
+    max-width: 100%;
+    min-height: 480px;
+    padding: 40px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.form-container h1 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.form-container {
+    position: relative;
+    bottom: -150px;
+    left: 50px;
+    background-color: #fff;
+    border-radius: 30px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
+    width: 400px;
+    max-width: 100%;
+    min-height: 480px;
+    padding: 40px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.form-container h1 {
+    font-size: 24px;
+    font-weight: 100%;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.form-container input {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    margin-bottom: 15px;
+    font-size: 14px;
+    padding: 10px;
+    width: 100%;
+    border-radius: 8px;
+}
+
+.form-container .contain {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.form-container button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 20px;
+    transition: background-color 0.3s ease;
+    width: 48%;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.form-container button:hover {
+    background-color: #043d60;
+}
+
+.contain button:first-child {
+    color: white;
+    background-color: #042031;
+}
+
+.contain button:first-child:hover {
+    background-color: #043d60;
+}
+
+.contain button:last-child {
+    background-color: #fff;
+    color: black;
+}
+
+.contain button:last-child:hover {
+    background-color: #c82333;
+}
+
+label{
+    position: relative;
+    left: 10px;
+    font-size: 15px;
+    color: #042031
+}
+
+.active-radio{
+    position: relative;
+    left: -90px;
+    top: -17px;
+}
